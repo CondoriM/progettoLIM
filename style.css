@@ -1,0 +1,70 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+body{
+  background: url(sfondo.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  max-width: 100%;
+  width: 100vw; height: 100vh;}
+
+#contenitore{
+  width: 1000px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0,0,0,0.55);
+  border-radius: 10px;
+  padding: 100px 0px;}
+
+#logo{
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;}
+
+header > h2{
+  color: rgb(0,255,0);
+  text-align: center;
+  margin-bottom: 10px;}
+
+#bordonav{
+  background-color: rgb(0,255,0);
+  width: 900px;
+  margin: auto;
+  padding: 8px;
+  text-align: center;}
+
+main{
+  margin: 0px 50px 0px;
+  color: white;}
+
+.distanza{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+  margin: 3px 0px;}
+
+main span{
+  display: inline-block;
+  margin: 20px 0px 0px;}
+
+#barra1{
+  width: 35%;
+  height: 20px;
+  background-color: rgb(255,127,80);
+  border-radius: 5px;}
+
+#barra2{
+  width: 60%;
+  height: 20px;
+  background-color: rgb(50,205,50);
+  border-radius: 5px;}
+
+#barra3{
+  width: 11%;
+  height: 20px;
+  background-color: rgb(205,92,92);
+  border-radius: 5px;}
